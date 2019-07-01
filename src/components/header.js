@@ -26,8 +26,9 @@ const Header = ({ siteTitle }) => (
 					</figure>
 					<div className="media-content">
 						<div className="content">
-							<h1 className="is-uppercase is-size-1 has-text-white">
-								GatsbyJS - Bulma CSS Starter
+							<h1 className="is-uppercase is-size-1 has-text-gray">
+								<a className="has-text-white" href="https://www.gatsbyjs.org/">GatsbyJS</a>{' - '}
+								<a className="has-text-white" href="https://bulma.io/">Bulma CSS</a> Starter
 							</h1>
 							<p className="subtitle has-text-white is-size-3 is-center">
 							
