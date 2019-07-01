@@ -1,72 +1,62 @@
-# Gatsby Bulma Quickstart
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 
-> A Quick Way to bootstrap your next Gatsby + Bulma site.
+<p align="center">
 
-![ss](https://i.imgur.com/Vz81GEl.png)
+![GatsbyJs Bulma CSS Starter.](https://github.com/app-generator/static/blob/master/gatsbyjs-starters/gatsbyjs-starters-bulma-css-lighthouse-score.jpg?raw=true)
 
-## Demo 💯
+</p>
 
-- [Demo Link](https://tender-raman-99e09b.netlify.com/)
+<br />
 
-## Features 🚀
+## [GatsbyJs](https://www.gatsbyjs.org/) Starter
 
-- Gatsby v2
-- Bulma CSS
-- Responsive design
-- Google Analytics
-- SEO
-- Netlify Deployment
+It's a static starter based on Gatsby and styled with Bulma CSS - [live demo](https://gatsby-starter-bulma-css.appseed.us/)
 
-## Languages and Frameworks ⚛️
+<br />
 
-- Gatsby
-- Bulma
-- SASS
-- GraphQL
+## 🚀 Quick start
 
-## How to use it? 👨‍💻
+1. **Install the Gatsby CLI.**
 
-You need npm and Gatsby CLI installed on your development machine.
+   ```shell
+   npm install -g gatsby-cli
+   ```
 
-### 1. Clone the repository/Installation
+2. **Create a Gatsby app.**
 
-If you have Git installed on your system you can run the following command:
+   ```sh
+   gatsby new gatsby-starter-bulma-css https://github.com/app-generator/gatsby-starter-bulma-css
+   ```
 
-`git clone https://github.com/amandeepmittal/gatsby-bulma-quickstart.git`
+3. **Start the site in `develop` mode.**
 
-Otherwise you can directly download it clicking on download button on this repository.
+   Next, move into your new site’s directory and start it up:
 
-### 2. Running in development mode
+   ```sh
+   cd gatsby-starter-bulma-css/
+   gatsby develop
+   ```
 
-Go inside `gatsby-bulma-quickstart/` directory and run the following command:
+4. **Open the source code and start editing!**
 
-`npm run develop`
+   Your site is now running at `http://localhost:8000`. 
 
-### 3. Open the source code and start editing!
+At this point, you’ve got a fully functional Gatsby website. For additional information on how you can customize your Gatsby site, see our [plugins](https://gatsbyjs.org/plugins/) and [the official tutorial](https://gatsbyjs.org/tutorial/).
 
-The site is now running at
-[http://localhost:8000](http://localhost:8000).
+<br />
 
-Open `gatsby-bulma-quickstart/` directory in your code editor of choice and edit it. Save your changes and the browser will update them in real time!
+## 🧐 Features
+ - Gatsby v2
+ - Bulma CSS
+ - Responsive design
+ - Google Analytics
+ - SEO
+ - Netlify Deployment
 
-### 4. Add your own Google Analytics Id
+<br />
 
-Once you have google-analytics tracking id for your site, you can configure in `gatsby-config.js` file:
+## Credits
+* Coded on top of this [starter](https://github.com/amandeepmittal/gatsby-bulma-quickstart) provided by @amandeepmittal
 
-```js
-resolve: `gatsby-plugin-google-analytics`,
-  options: {
-    // Your Tracking Id 👇
-    trackingId: 'UA-XXXXXXXX-X',
-    anonymize: true
-    }
-  }
-```
-
-## Contact me
-
-If you find any possible improvement or suggestion related to code or UI/UX please contribute by submitting a PR.
-
-You can also back or support this project for me to keep it updated by [**Buying Me a Coffee**](https://www.paypal.me/amanhimself/2)
-
-**Happy Coding!** 🎉🎉
+---
+Provided by [Sm0ke](https://twitter.com/Sm0keDev)

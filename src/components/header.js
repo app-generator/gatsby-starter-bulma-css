@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
+import { FaRocket } from 'react-icons/fa';
 
 import './style.scss';
 
@@ -26,19 +27,22 @@ const Header = ({ siteTitle }) => (
 					<div className="media-content">
 						<div className="content">
 							<h1 className="is-uppercase is-size-1 has-text-white">
-								Hello from Bulma + Gatsby
+								GatsbyJS - Bulma CSS Starter
 							</h1>
-							<p className="subtitle has-text-white is-size-3">
-								A Bulma CSS + GatsbyJS Starter Kit{' '}
-								<a
-									className="button is-info is-inverted"
-									href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
-								>
-									<span className="icon">
-										<FaGithub size="fa-2x" />
-									</span>
-									<span>Download</span>
+							<p className="subtitle has-text-white is-size-3 is-center">
+							
+								<a  className="button is-info is-inverted"
+									href="https://github.com/app-generator/gatsby-starter-bulma-css">
+									<span className="icon"><FaGithub size="fa-2x" /></span>
+									<span>Get Sources</span>
 								</a>
+                                {' '}
+								<a  className="button is-info is-inverted"
+									href="https://developers.google.com/speed/pagespeed/insights/?url=https://gatsby-starter-bulma-css.appseed.us">
+									<span className="icon"><FaRocket size="fa-2x" /></span>
+									<span>{' '}Check Speed</span>
+								</a>
+
 							</p>
 						</div>
 					</div>

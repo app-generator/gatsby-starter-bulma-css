@@ -5,6 +5,7 @@
 	"author": "Aman Mittal <amandeepmittal@live.com>",
 	"dependencies": {
 		"bulma": "^0.7.4",
+		"ftp-deploy": "^2.3.3",
 		"gatsby": "^2.3.25",
 		"gatsby-image": "^2.0.39",
 		"gatsby-plugin-google-analytics": "^2.0.18",
@@ -13,7 +14,7 @@
 		"gatsby-plugin-react-helmet": "^3.0.12",
 		"gatsby-plugin-sass": "^2.0.11",
 		"gatsby-plugin-sharp": "^2.0.35",
-		"gatsby-plugin-sitemap": "^2.0.12",
+		"gatsby-plugin-sitemap": "^2.2.0",
 		"gatsby-source-filesystem": "^2.0.29",
 		"gatsby-transformer-sharp": "^2.1.18",
 		"node-sass": "^4.11.0",
@@ -31,6 +32,8 @@
 	],
 	"license": "MIT",
 	"scripts": {
+		"deploy": "gatsby build && node deploy",
+		"start" : "gatsby develop",
 		"build": "gatsby build",
 		"develop": "gatsby develop",
 		"start": "npm run develop",
